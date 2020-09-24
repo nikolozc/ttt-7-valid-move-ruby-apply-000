@@ -1,7 +1,7 @@
 # code your #valid_move? method here
-def tester
-    if (position_taken?)
-        
+def valid_move?(board, index)
+    if (position_taken?(board,index) || index)
+        return false
     else
         
     end
